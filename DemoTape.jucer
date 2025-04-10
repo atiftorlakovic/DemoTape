@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="q2i99D" name="DemoTape" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" pluginCharacteristicsValue="pluginIsMidiEffectPlugin">
+  <MAINGROUP id="BJ8Lgv" name="DemoTape">
+    <GROUP id="{D39F42BD-80B8-4E9B-BC90-D625D89CAAAA}" name="Source">
+      <FILE id="XDve3K" name="RiveDemo.h" compile="0" resource="0" file="Source/RiveDemo.h"/>
+      <FILE id="HBuoph" name="RiveFactory.h" compile="0" resource="0" file="Source/RiveFactory.h"/>
+      <FILE id="CqIubR" name="RiveTestApp.cpp" compile="1" resource="0" file="Source/RiveTestApp.cpp"/>
+      <FILE id="D1u2xJ" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="EfUcgW" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="UeUBbT" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="jqUjVo" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="RiveComponent" name="RiveComponent.h" compile="0" resource="0"
+            file="Source/RiveComponent.h"/>
+      <FILE id="RiveOpenGLRenderer" name="RiveOpenGLRenderer.h" compile="0"
+            resource="0" file="Source/RiveOpenGLRenderer.h"/>
+      <FILE id="RiveOpenGLRendererImpl" name="RiveOpenGLRenderer.cpp" compile="1"
+            resource="0" file="Source/RiveOpenGLRenderer.cpp"/>
+      <FILE id="RiveStubs" name="RiveStubs.cpp" compile="1" resource="0"
+            file="Source/RiveStubs.cpp"/>
+    </GROUP>
+    <GROUP id="{D39F42BD-80B8-4E9B-BC90-D625D89C5C02}" name="Rive Runtime">
+      <FILE id="ACWYt7" name="core.hpp" compile="0" resource="0" file="rive-cpp/include/rive/core.hpp"/>
+      <FILE id="RiveArtboard" name="artboard.hpp" compile="0" resource="0"
+            file="rive-cpp/include/rive/artboard.hpp"/>
+      <FILE id="RiveFile" name="file.hpp" compile="0" resource="0" file="rive-cpp/include/rive/file.hpp"/>
+      <FILE id="RiveSpan" name="span.hpp" compile="0" resource="0" file="rive-cpp/include/rive/span.hpp"/>
+      <FILE id="RiveRenderer" name="renderer.hpp" compile="0" resource="0"
+            file="rive-cpp/include/rive/renderer.hpp"/>
+      <FILE id="RiveRendererGL" name="renderer_gl.hpp" compile="0" resource="0"
+            file="rive-cpp/include/rive/renderer_gl.hpp"/>
+    </GROUP>
+    <GROUP id="{E0FF764A-A2E4-6B92-82D4-21C1D4C5BC47}" name="Rive">
+      <GROUP id="{B1A0AFDF-6D6C-1EB0-9B76-F6F453C407C3}" name="src">
+        <GROUP id="{0A27F88B-B674-B199-FD72-977C68BA0FFF}" name="animation">
+          <FILE id="zxxWB5" name="animation_reset.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/animation_reset.cpp"/>
+          <FILE id="u9j8as" name="animation_reset_factory.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/animation_reset_factory.cpp"/>
+          <FILE id="vIGSjI" name="animation_state.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/animation_state.cpp"/>
+          <FILE id="QBtjEQ" name="animation_state_instance.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/animation_state_instance.cpp"/>
+          <FILE id="bMciU9" name="blend_animation.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/blend_animation.cpp"/>
+          <FILE id="NZsVfz" name="blend_animation_1d.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/blend_animation_1d.cpp"/>
+          <FILE id="nPFeyC" name="blend_animation_direct.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/blend_animation_direct.cpp"/>
+          <FILE id="XGA6Pa" name="blend_state.cpp" compile="1" resource="0" file="../rive-cpp/src/animation/blend_state.cpp"/>
+          <FILE id="KnOKa7" name="blend_state_1d.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/blend_state_1d.cpp"/>
+          <FILE id="IAchvU" name="blend_state_1d_input.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/blend_state_1d_input.cpp"/>
+          <FILE id="KF3BmT" name="blend_state_1d_instance.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/blend_state_1d_instance.cpp"/>
+          <FILE id="FMRCPB" name="blend_state_1d_viewmodel.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/blend_state_1d_viewmodel.cpp"/>
+          <FILE id="lCLUDR" name="blend_state_direct.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/blend_state_direct.cpp"/>
+          <FILE id="s4BuQD" name="blend_state_direct_instance.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/animation/blend_state_direct_instance.cpp"/>
+          <FILE id="entJnr" name="blend_state_transition.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/blend_state_transition.cpp"/>
+          <FILE id="BKK8Gl" name="cubic_ease_interpolator.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/cubic_ease_interpolator.cpp"/>
+          <FILE id="FQcPXV" name="cubic_interpolator.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/cubic_interpolator.cpp"/>
+          <FILE id="W4Ylgn" name="cubic_interpolator_component.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/animation/cubic_interpolator_component.cpp"/>
+          <FILE id="fFU17R" name="cubic_interpolator_solver.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/animation/cubic_interpolator_solver.cpp"/>
+          <FILE id="kbELAH" name="cubic_value_interpolator.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/cubic_value_interpolator.cpp"/>
+          <FILE id="iayMT7" name="elastic_ease.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/elastic_ease.cpp"/>
+          <FILE id="KuTy6z" name="elastic_interpolator.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/elastic_interpolator.cpp"/>
+          <FILE id="TXOycd" name="hittable.cpp" compile="1" resource="0" file="../rive-cpp/src/animation/hittable.cpp"/>
+          <FILE id="huhqwf" name="interpolating_keyframe.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/interpolating_keyframe.cpp"/>
+          <FILE id="iY6Bll" name="keyed_object.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/keyed_object.cpp"/>
+          <FILE id="Fx1Ym9" name="keyed_property.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/keyed_property.cpp"/>
+          <FILE id="lglfLf" name="keyframe.cpp" compile="1" resource="0" file="../rive-cpp/src/animation/keyframe.cpp"/>
+          <FILE id="CYdmbd" name="keyframe_bool.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/keyframe_bool.cpp"/>
+          <FILE id="q6EDmZ" name="keyframe_callback.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/keyframe_callback.cpp"/>
+          <FILE id="bHqJx6" name="keyframe_color.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/keyframe_color.cpp"/>
+          <FILE id="I88bk2" name="keyframe_double.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/keyframe_double.cpp"/>
+          <FILE id="hU7zLn" name="keyframe_id.cpp" compile="1" resource="0" file="../rive-cpp/src/animation/keyframe_id.cpp"/>
+          <FILE id="vcNCVa" name="keyframe_interpolator.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/keyframe_interpolator.cpp"/>
+          <FILE id="JFzUIR" name="keyframe_string.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/keyframe_string.cpp"/>
+          <FILE id="Zkz6dM" name="keyframe_uint.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/keyframe_uint.cpp"/>
+          <FILE id="I1CosZ" name="layer_state.cpp" compile="1" resource="0" file="../rive-cpp/src/animation/layer_state.cpp"/>
+          <FILE id="wFwI2W" name="linear_animation.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/linear_animation.cpp"/>
+          <FILE id="mUUwhp" name="linear_animation_instance.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/animation/linear_animation_instance.cpp"/>
+          <FILE id="ScHTma" name="listener_action.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/listener_action.cpp"/>
+          <FILE id="KS72ia" name="listener_align_target.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/listener_align_target.cpp"/>
+          <FILE id="DYRdpS" name="listener_bool_change.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/listener_bool_change.cpp"/>
+          <FILE id="ag8X6N" name="listener_fire_event.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/listener_fire_event.cpp"/>
+          <FILE id="CauOHE" name="listener_input_change.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/listener_input_change.cpp"/>
+          <FILE id="W5Eo9H" name="listener_number_change.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/listener_number_change.cpp"/>
+          <FILE id="y81JTm" name="listener_trigger_change.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/listener_trigger_change.cpp"/>
+          <FILE id="PhpFi2" name="listener_viewmodel_change.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/animation/listener_viewmodel_change.cpp"/>
+          <FILE id="IrIZWB" name="nested_animation.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/nested_animation.cpp"/>
+          <FILE id="VGnb9Y" name="nested_bool.cpp" compile="1" resource="0" file="../rive-cpp/src/animation/nested_bool.cpp"/>
+          <FILE id="B1tmmZ" name="nested_linear_animation.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/nested_linear_animation.cpp"/>
+          <FILE id="id1adh" name="nested_number.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/nested_number.cpp"/>
+          <FILE id="RBcFIA" name="nested_remap_animation.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/nested_remap_animation.cpp"/>
+          <FILE id="bVKgw3" name="nested_simple_animation.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/nested_simple_animation.cpp"/>
+          <FILE id="vMpW2I" name="nested_state_machine.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/nested_state_machine.cpp"/>
+          <FILE id="xXzhLe" name="nested_trigger.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/nested_trigger.cpp"/>
+          <FILE id="W3aUhO" name="state_instance.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/state_instance.cpp"/>
+          <FILE id="S3dije" name="state_machine.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/state_machine.cpp"/>
+          <FILE id="xTuEV3" name="state_machine_input.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/state_machine_input.cpp"/>
+          <FILE id="rnQRRk" name="state_machine_input_instance.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/animation/state_machine_input_instance.cpp"/>
+          <FILE id="KeFm41" name="state_machine_instance.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/state_machine_instance.cpp"/>
+          <FILE id="NfxjwI" name="state_machine_layer.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/state_machine_layer.cpp"/>
+          <FILE id="vxUYfd" name="state_machine_listener.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/state_machine_listener.cpp"/>
+          <FILE id="ZWp6A1" name="state_transition.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/state_transition.cpp"/>
+          <FILE id="FIR5NL" name="system_state_instance.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/system_state_instance.cpp"/>
+          <FILE id="MEdzFs" name="transition_bool_condition.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/animation/transition_bool_condition.cpp"/>
+          <FILE id="sX6dfd" name="transition_comparator.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/transition_comparator.cpp"/>
+          <FILE id="k3TREJ" name="transition_condition.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/animation/transition_condition.cpp"/>
+          <FILE id="Z9nmfm" name="transition_input_condition.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/animation/transition_input_condition.cpp"/>
+          <FILE id="bXoGUH" name="transition_number_condition.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/animation/transition_number_condition.cpp"/>
+          <FILE id="an5SAQ" name="transition_property_artboard_comparator.cpp"
+                compile="1" resource="0" file="../rive-cpp/src/animation/transition_property_artboard_comparator.cpp"/>
+          <FILE id="RHXoZ7" name="transition_property_comparator.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/animation/transition_property_comparator.cpp"/>
+          <FILE id="bHwN2S" name="transition_property_viewmodel_comparator.cpp"
+                compile="1" resource="0" file="../rive-cpp/src/animation/transition_property_viewmodel_comparator.cpp"/>
+          <FILE id="yEdjic" name="transition_trigger_condition.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/animation/transition_trigger_condition.cpp"/>
+          <FILE id="j1saIj" name="transition_value_boolean_comparator.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/animation/transition_value_boolean_comparator.cpp"/>
+          <FILE id="zvLRow" name="transition_value_color_comparator.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/animation/transition_value_color_comparator.cpp"/>
+          <FILE id="C1O9jx" name="transition_value_enum_comparator.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/animation/transition_value_enum_comparator.cpp"/>
+          <FILE id="Isjqys" name="transition_value_number_comparator.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/animation/transition_value_number_comparator.cpp"/>
+          <FILE id="hCUaai" name="transition_value_string_comparator.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/animation/transition_value_string_comparator.cpp"/>
+          <FILE id="KB8B5V" name="transition_viewmodel_condition.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/animation/transition_viewmodel_condition.cpp"/>
+        </GROUP>
+        <GROUP id="{F1712185-BE32-9F49-C941-AF9C493B2C40}" name="assets">
+          <FILE id="ydC2pA" name="audio_asset.cpp" compile="1" resource="0" file="../rive-cpp/src/assets/audio_asset.cpp"/>
+          <FILE id="ZMZLwX" name="file_asset.cpp" compile="1" resource="0" file="../rive-cpp/src/assets/file_asset.cpp"/>
+          <FILE id="bTKnyv" name="file_asset_contents.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/assets/file_asset_contents.cpp"/>
+          <FILE id="RbW5si" name="file_asset_referencer.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/assets/file_asset_referencer.cpp"/>
+          <FILE id="yKyRMV" name="font_asset.cpp" compile="1" resource="0" file="../rive-cpp/src/assets/font_asset.cpp"/>
+          <FILE id="RueY41" name="image_asset.cpp" compile="1" resource="0" file="../rive-cpp/src/assets/image_asset.cpp"/>
+        </GROUP>
+        <GROUP id="{7759719B-523D-62EA-3E8D-46A333FF0C58}" name="audio">
+          <FILE id="yYzt0F" name="audio_engine.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/audio/audio_engine.cpp"/>
+          <FILE id="OCZ1QY" name="audio_engine.m" compile="1" resource="0" file="../rive-cpp/src/audio/audio_engine.m"/>
+          <FILE id="QMutyU" name="audio_reader.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/audio/audio_reader.cpp"/>
+          <FILE id="IIKc7Z" name="audio_sound.cpp" compile="1" resource="0" file="../rive-cpp/src/audio/audio_sound.cpp"/>
+          <FILE id="a3funX" name="audio_source.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/audio/audio_source.cpp"/>
+        </GROUP>
+        <GROUP id="{404EC644-E02A-D559-A0AF-096E35FE050F}" name="bones">
+          <FILE id="Q7ZHYh" name="bone.cpp" compile="1" resource="0" file="../rive-cpp/src/bones/bone.cpp"/>
+          <FILE id="gbPg7G" name="root_bone.cpp" compile="1" resource="0" file="../rive-cpp/src/bones/root_bone.cpp"/>
+          <FILE id="NB1r6Q" name="skin.cpp" compile="1" resource="0" file="../rive-cpp/src/bones/skin.cpp"/>
+          <FILE id="tWz4NG" name="skinnable.cpp" compile="1" resource="0" file="../rive-cpp/src/bones/skinnable.cpp"/>
+          <FILE id="jiPDlO" name="tendon.cpp" compile="1" resource="0" file="../rive-cpp/src/bones/tendon.cpp"/>
+          <FILE id="LgjCHV" name="weight.cpp" compile="1" resource="0" file="../rive-cpp/src/bones/weight.cpp"/>
+        </GROUP>
+        <GROUP id="{E875A253-AAF2-E992-74BB-7D976C2FB231}" name="constraints">
+          <GROUP id="{18AE6D8D-BC25-D758-8772-736A70BEE42E}" name="scrolling">
+            <FILE id="gucNMt" name="clamped_scroll_physics.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/constraints/scrolling/clamped_scroll_physics.cpp"/>
+            <FILE id="Z8wi8p" name="elastic_scroll_physics.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/constraints/scrolling/elastic_scroll_physics.cpp"/>
+            <FILE id="kH1DF8" name="scroll_bar_constraint.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/constraints/scrolling/scroll_bar_constraint.cpp"/>
+            <FILE id="z0DtSu" name="scroll_bar_constraint_proxy.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/constraints/scrolling/scroll_bar_constraint_proxy.cpp"/>
+            <FILE id="M3QZlu" name="scroll_constraint.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/constraints/scrolling/scroll_constraint.cpp"/>
+            <FILE id="vJMkXU" name="scroll_constraint_proxy.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/constraints/scrolling/scroll_constraint_proxy.cpp"/>
+            <FILE id="GBVOxd" name="scroll_physics.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/constraints/scrolling/scroll_physics.cpp"/>
+          </GROUP>
+          <FILE id="hlHIiY" name="constraint.cpp" compile="1" resource="0" file="../rive-cpp/src/constraints/constraint.cpp"/>
+          <FILE id="CWGcL6" name="distance_constraint.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/constraints/distance_constraint.cpp"/>
+          <FILE id="uYSHXv" name="follow_path_constraint.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/constraints/follow_path_constraint.cpp"/>
+          <FILE id="n1PF2X" name="ik_constraint.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/constraints/ik_constraint.cpp"/>
+          <FILE id="oFNXnP" name="rotation_constraint.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/constraints/rotation_constraint.cpp"/>
+          <FILE id="s7moJE" name="scale_constraint.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/constraints/scale_constraint.cpp"/>
+          <FILE id="bR3gmE" name="targeted_constraint.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/constraints/targeted_constraint.cpp"/>
+          <FILE id="Asohll" name="transform_constraint.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/constraints/transform_constraint.cpp"/>
+          <FILE id="lGmbzq" name="translation_constraint.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/constraints/translation_constraint.cpp"/>
+        </GROUP>
+        <GROUP id="{E85BCD1D-3379-8946-A8FE-2D8357F52F3C}" name="core">
+          <GROUP id="{F3426DB1-C35C-3DA5-42E9-3F26FF3A6F3F}" name="field_types">
+            <FILE id="XkgwSB" name="core_bool_type.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/core/field_types/core_bool_type.cpp"/>
+            <FILE id="uT08RU" name="core_bytes_type.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/core/field_types/core_bytes_type.cpp"/>
+            <FILE id="NH9xwy" name="core_color_type.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/core/field_types/core_color_type.cpp"/>
+            <FILE id="hm5KfO" name="core_double_type.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/core/field_types/core_double_type.cpp"/>
+            <FILE id="l1blQV" name="core_string_type.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/core/field_types/core_string_type.cpp"/>
+            <FILE id="LDdi9m" name="core_uint_type.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/core/field_types/core_uint_type.cpp"/>
+          </GROUP>
+          <FILE id="jAT0GO" name="binary_data_reader.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/core/binary_data_reader.cpp"/>
+          <FILE id="QOHyrL" name="binary_reader.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/core/binary_reader.cpp"/>
+          <FILE id="mN1iDL" name="binary_writer.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/core/binary_writer.cpp"/>
+        </GROUP>
+        <GROUP id="{09E3B69D-7972-6FF9-017C-90F6E77E7F3F}" name="data_bind">
+          <GROUP id="{D904E73B-46E7-DE8C-F7D4-2EAD8B501DC8}" name="context">
+            <FILE id="hbi8U0" name="context_value.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/data_bind/context/context_value.cpp"/>
+            <FILE id="MXcmcP" name="context_value_boolean.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/data_bind/context/context_value_boolean.cpp"/>
+            <FILE id="gO0jjG" name="context_value_color.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/data_bind/context/context_value_color.cpp"/>
+            <FILE id="xfj0J7" name="context_value_enum.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/data_bind/context/context_value_enum.cpp"/>
+            <FILE id="xXeSzI" name="context_value_list.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/data_bind/context/context_value_list.cpp"/>
+            <FILE id="io98Aq" name="context_value_list_item.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/data_bind/context/context_value_list_item.cpp"/>
+            <FILE id="CHIoQ6" name="context_value_number.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/data_bind/context/context_value_number.cpp"/>
+            <FILE id="ZPP6cg" name="context_value_string.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/data_bind/context/context_value_string.cpp"/>
+            <FILE id="glLuJx" name="context_value_trigger.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/data_bind/context/context_value_trigger.cpp"/>
+          </GROUP>
+          <GROUP id="{4A964EC8-3740-FA05-86C3-4FB2F11C346B}" name="converters">
+            <GROUP id="{7DDFF7AE-1F8E-F984-6C36-2CD5C6E67150}" name="formula">
+              <FILE id="XooI54" name="formula_token.cpp" compile="1" resource="0"
+                    file="../rive-cpp/src/data_bind/converters/formula/formula_token.cpp"/>
+            </GROUP>
+            <FILE id="AUfUTn" name="data_converter.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/data_bind/converters/data_converter.cpp"/>
+            <FILE id="GU96rX" name="data_converter_boolean_negate.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/data_bind/converters/data_converter_boolean_negate.cpp"/>
+            <FILE id="tdMSEW" name="data_converter_formula.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/data_bind/converters/data_converter_formula.cpp"/>
+            <FILE id="MMW3rh" name="data_converter_group.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/data_bind/converters/data_converter_group.cpp"/>
+            <FILE id="l6Dm9V" name="data_converter_group_item.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/data_bind/converters/data_converter_group_item.cpp"/>
+            <FILE id="ooQQxB" name="data_converter_interpolator.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/data_bind/converters/data_converter_interpolator.cpp"/>
+            <FILE id="Y5WIsQ" name="data_converter_operation.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/data_bind/converters/data_converter_operation.cpp"/>
+            <FILE id="t0RTQJ" name="data_converter_operation_value.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/data_bind/converters/data_converter_operation_value.cpp"/>
+            <FILE id="ONByp3" name="data_converter_operation_viewmodel.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/data_bind/converters/data_converter_operation_viewmodel.cpp"/>
+            <FILE id="xcjREL" name="data_converter_range_mapper.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/data_bind/converters/data_converter_range_mapper.cpp"/>
+            <FILE id="KlHGIn" name="data_converter_rounder.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/data_bind/converters/data_converter_rounder.cpp"/>
+            <FILE id="e1CazM" name="data_converter_string_pad.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/data_bind/converters/data_converter_string_pad.cpp"/>
+            <FILE id="ojLrAO" name="data_converter_string_remove_zeros.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/data_bind/converters/data_converter_string_remove_zeros.cpp"/>
+            <FILE id="hHMZWc" name="data_converter_string_trim.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/data_bind/converters/data_converter_string_trim.cpp"/>
+            <FILE id="ggwRF3" name="data_converter_system_degs_to_rads.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/data_bind/converters/data_converter_system_degs_to_rads.cpp"/>
+            <FILE id="axNaRp" name="data_converter_system_normalizer.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/data_bind/converters/data_converter_system_normalizer.cpp"/>
+            <FILE id="Gb42vB" name="data_converter_to_string.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/data_bind/converters/data_converter_to_string.cpp"/>
+            <FILE id="mxy1JE" name="data_converter_trigger.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/data_bind/converters/data_converter_trigger.cpp"/>
+          </GROUP>
+          <FILE id="diI9mJ" name="data_bind.cpp" compile="1" resource="0" file="../rive-cpp/src/data_bind/data_bind.cpp"/>
+          <FILE id="zMYYHJ" name="data_bind_context.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/data_bind/data_bind_context.cpp"/>
+          <FILE id="JvCFnU" name="data_context.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/data_bind/data_context.cpp"/>
+        </GROUP>
+        <GROUP id="{B6F0161F-9071-ADFA-AB80-1126DAEA1786}" name="generated">
+          <GROUP id="{1360C2AD-3871-C29A-95EF-F19527E6F581}" name="animation">
+            <FILE id="KYiRjY" name="animation_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/animation_base.cpp"/>
+            <FILE id="IFYaTh" name="animation_state_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/animation_state_base.cpp"/>
+            <FILE id="Sjbqep" name="any_state_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/any_state_base.cpp"/>
+            <FILE id="tGxFIu" name="blend_animation_1d_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/blend_animation_1d_base.cpp"/>
+            <FILE id="DROXKb" name="blend_animation_direct_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/animation/blend_animation_direct_base.cpp"/>
+            <FILE id="NemZYn" name="blend_state_1d_input_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/animation/blend_state_1d_input_base.cpp"/>
+            <FILE id="lpzu0h" name="blend_state_1d_viewmodel_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/animation/blend_state_1d_viewmodel_base.cpp"/>
+            <FILE id="TdexOy" name="blend_state_direct_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/blend_state_direct_base.cpp"/>
+            <FILE id="IDXLMi" name="blend_state_transition_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/animation/blend_state_transition_base.cpp"/>
+            <FILE id="qL140k" name="cubic_ease_interpolator_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/animation/cubic_ease_interpolator_base.cpp"/>
+            <FILE id="IYsIfp" name="cubic_interpolator_component_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/animation/cubic_interpolator_component_base.cpp"/>
+            <FILE id="UhrHuV" name="cubic_value_interpolator_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/animation/cubic_value_interpolator_base.cpp"/>
+            <FILE id="Ku3Zw5" name="elastic_interpolator_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/animation/elastic_interpolator_base.cpp"/>
+            <FILE id="l6QZK0" name="entry_state_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/entry_state_base.cpp"/>
+            <FILE id="wlvQIk" name="exit_state_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/exit_state_base.cpp"/>
+            <FILE id="H7xuwx" name="keyed_object_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/keyed_object_base.cpp"/>
+            <FILE id="J3722r" name="keyed_property_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/keyed_property_base.cpp"/>
+            <FILE id="hRoFGz" name="keyframe_bool_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/keyframe_bool_base.cpp"/>
+            <FILE id="XMrfrb" name="keyframe_callback_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/keyframe_callback_base.cpp"/>
+            <FILE id="irIr3A" name="keyframe_color_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/keyframe_color_base.cpp"/>
+            <FILE id="EKnL5F" name="keyframe_double_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/keyframe_double_base.cpp"/>
+            <FILE id="VyYcgu" name="keyframe_id_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/keyframe_id_base.cpp"/>
+            <FILE id="eq5Lep" name="keyframe_string_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/keyframe_string_base.cpp"/>
+            <FILE id="BUuv2s" name="keyframe_uint_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/keyframe_uint_base.cpp"/>
+            <FILE id="oXxo6O" name="linear_animation_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/linear_animation_base.cpp"/>
+            <FILE id="ZzvcnA" name="listener_align_target_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/animation/listener_align_target_base.cpp"/>
+            <FILE id="LRbwgb" name="listener_bool_change_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/animation/listener_bool_change_base.cpp"/>
+            <FILE id="TUN77P" name="listener_fire_event_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/listener_fire_event_base.cpp"/>
+            <FILE id="SrWkSl" name="listener_number_change_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/animation/listener_number_change_base.cpp"/>
+            <FILE id="SNuKSe" name="listener_trigger_change_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/animation/listener_trigger_change_base.cpp"/>
+            <FILE id="T2RygT" name="listener_viewmodel_change_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/animation/listener_viewmodel_change_base.cpp"/>
+            <FILE id="EqLIBL" name="nested_bool_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/nested_bool_base.cpp"/>
+            <FILE id="NtKH73" name="nested_number_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/nested_number_base.cpp"/>
+            <FILE id="E40stb" name="nested_remap_animation_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/animation/nested_remap_animation_base.cpp"/>
+            <FILE id="Z7taDB" name="nested_simple_animation_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/animation/nested_simple_animation_base.cpp"/>
+            <FILE id="cvAifk" name="nested_state_machine_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/animation/nested_state_machine_base.cpp"/>
+            <FILE id="TpYx4C" name="nested_trigger_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/nested_trigger_base.cpp"/>
+            <FILE id="uMNXrj" name="state_machine_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/state_machine_base.cpp"/>
+            <FILE id="KVQUSO" name="state_machine_bool_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/state_machine_bool_base.cpp"/>
+            <FILE id="Aontad" name="state_machine_fire_event.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/state_machine_fire_event.cpp"/>
+            <FILE id="RlY9SR" name="state_machine_fire_event_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/animation/state_machine_fire_event_base.cpp"/>
+            <FILE id="hXAUd1" name="state_machine_layer_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/state_machine_layer_base.cpp"/>
+            <FILE id="cAmEjE" name="state_machine_listener_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/animation/state_machine_listener_base.cpp"/>
+            <FILE id="GAZza8" name="state_machine_number_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/animation/state_machine_number_base.cpp"/>
+            <FILE id="Y7lec7" name="state_machine_trigger_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/animation/state_machine_trigger_base.cpp"/>
+            <FILE id="M56KYS" name="state_transition_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/animation/state_transition_base.cpp"/>
+            <FILE id="OPP875" name="transition_artboard_condition_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/animation/transition_artboard_condition_base.cpp"/>
+            <FILE id="SjmyGB" name="transition_bool_condition_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/animation/transition_bool_condition_base.cpp"/>
+            <FILE id="ECfw0L" name="transition_number_condition_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/animation/transition_number_condition_base.cpp"/>
+            <FILE id="LeBjEN" name="transition_property_artboard_comparator_base.cpp"
+                  compile="1" resource="0" file="../rive-cpp/src/generated/animation/transition_property_artboard_comparator_base.cpp"/>
+            <FILE id="YbkT5e" name="transition_property_viewmodel_comparator_base.cpp"
+                  compile="1" resource="0" file="../rive-cpp/src/generated/animation/transition_property_viewmodel_comparator_base.cpp"/>
+            <FILE id="wODFrC" name="transition_trigger_condition_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/animation/transition_trigger_condition_base.cpp"/>
+            <FILE id="qt5WJO" name="transition_value_boolean_comparator_base.cpp"
+                  compile="1" resource="0" file="../rive-cpp/src/generated/animation/transition_value_boolean_comparator_base.cpp"/>
+            <FILE id="S4HqhA" name="transition_value_color_comparator_base.cpp"
+                  compile="1" resource="0" file="../rive-cpp/src/generated/animation/transition_value_color_comparator_base.cpp"/>
+            <FILE id="BaIBnH" name="transition_value_enum_comparator_base.cpp"
+                  compile="1" resource="0" file="../rive-cpp/src/generated/animation/transition_value_enum_comparator_base.cpp"/>
+            <FILE id="OJka47" name="transition_value_number_comparator_base.cpp"
+                  compile="1" resource="0" file="../rive-cpp/src/generated/animation/transition_value_number_comparator_base.cpp"/>
+            <FILE id="NWK2vV" name="transition_value_string_comparator_base.cpp"
+                  compile="1" resource="0" file="../rive-cpp/src/generated/animation/transition_value_string_comparator_base.cpp"/>
+            <FILE id="USLWAy" name="transition_value_trigger_comparator_base.cpp"
+                  compile="1" resource="0" file="../rive-cpp/src/generated/animation/transition_value_trigger_comparator_base.cpp"/>
+            <FILE id="zP6QUM" name="transition_viewmodel_condition_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/animation/transition_viewmodel_condition_base.cpp"/>
+          </GROUP>
+          <GROUP id="{E5857E6D-2CA4-CD15-C675-971DFB3D35AA}" name="assets">
+            <FILE id="DNYbi8" name="audio_asset_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/assets/audio_asset_base.cpp"/>
+            <FILE id="MyYPPe" name="file_asset_contents_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/assets/file_asset_contents_base.cpp"/>
+            <FILE id="tAfRfD" name="folder_base.cpp" compile="1" resource="0" file="../rive-cpp/src/generated/assets/folder_base.cpp"/>
+            <FILE id="DwfP7u" name="font_asset_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/assets/font_asset_base.cpp"/>
+            <FILE id="rTrmc6" name="image_asset_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/assets/image_asset_base.cpp"/>
+          </GROUP>
+          <GROUP id="{3208931B-B955-312D-8DFA-45C23C0AA018}" name="bones">
+            <FILE id="rLO1Cl" name="bone_base.cpp" compile="1" resource="0" file="../rive-cpp/src/generated/bones/bone_base.cpp"/>
+            <FILE id="ZPux7y" name="cubic_weight_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/bones/cubic_weight_base.cpp"/>
+            <FILE id="RdVfms" name="root_bone_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/bones/root_bone_base.cpp"/>
+            <FILE id="wBrUlP" name="skin_base.cpp" compile="1" resource="0" file="../rive-cpp/src/generated/bones/skin_base.cpp"/>
+            <FILE id="CrZwni" name="tendon_base.cpp" compile="1" resource="0" file="../rive-cpp/src/generated/bones/tendon_base.cpp"/>
+            <FILE id="yLApNV" name="weight_base.cpp" compile="1" resource="0" file="../rive-cpp/src/generated/bones/weight_base.cpp"/>
+          </GROUP>
+          <GROUP id="{6145CE6E-D23B-2D3B-3611-1E2A73F33EF0}" name="constraints">
+            <GROUP id="{26E1890C-ED3A-0A3C-CD41-1D7B5C129DD1}" name="scrolling">
+              <FILE id="UBSTLm" name="clamped_scroll_physics_base.cpp" compile="1"
+                    resource="0" file="../rive-cpp/src/generated/constraints/scrolling/clamped_scroll_physics_base.cpp"/>
+              <FILE id="qcdJYZ" name="elastic_scroll_physics_base.cpp" compile="1"
+                    resource="0" file="../rive-cpp/src/generated/constraints/scrolling/elastic_scroll_physics_base.cpp"/>
+              <FILE id="Erga4K" name="scroll_bar_constraint_base.cpp" compile="1"
+                    resource="0" file="../rive-cpp/src/generated/constraints/scrolling/scroll_bar_constraint_base.cpp"/>
+              <FILE id="zMWcwE" name="scroll_constraint_base.cpp" compile="1" resource="0"
+                    file="../rive-cpp/src/generated/constraints/scrolling/scroll_constraint_base.cpp"/>
+            </GROUP>
+            <FILE id="ZgoSUX" name="distance_constraint_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/constraints/distance_constraint_base.cpp"/>
+            <FILE id="KuhAYc" name="follow_path_constraint_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/constraints/follow_path_constraint_base.cpp"/>
+            <FILE id="FFGwBg" name="ik_constraint_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/constraints/ik_constraint_base.cpp"/>
+            <FILE id="M2Ofve" name="rotation_constraint_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/constraints/rotation_constraint_base.cpp"/>
+            <FILE id="WnSxkO" name="scale_constraint_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/constraints/scale_constraint_base.cpp"/>
+            <FILE id="HIsjEs" name="transform_constraint_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/constraints/transform_constraint_base.cpp"/>
+            <FILE id="OfYwe2" name="translation_constraint_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/constraints/translation_constraint_base.cpp"/>
+          </GROUP>
+          <GROUP id="{DECC5037-1C01-44E1-0600-39B2F149D672}" name="data_bind">
+            <GROUP id="{DFA3552B-0946-0AB0-C285-5E6A16ED976A}" name="converters">
+              <GROUP id="{A325E5C6-C2B7-3DCB-1779-9A06213DB7BF}" name="formula">
+                <FILE id="Sz8YdY" name="formula_token_argument_separator_base.cpp"
+                      compile="1" resource="0" file="../rive-cpp/src/generated/data_bind/converters/formula/formula_token_argument_separator_base.cpp"/>
+                <FILE id="zNipuZ" name="formula_token_base.cpp" compile="1" resource="0"
+                      file="../rive-cpp/src/generated/data_bind/converters/formula/formula_token_base.cpp"/>
+                <FILE id="Vr0JYf" name="formula_token_function_base.cpp" compile="1"
+                      resource="0" file="../rive-cpp/src/generated/data_bind/converters/formula/formula_token_function_base.cpp"/>
+                <FILE id="eCiA6x" name="formula_token_input_base.cpp" compile="1" resource="0"
+                      file="../rive-cpp/src/generated/data_bind/converters/formula/formula_token_input_base.cpp"/>
+                <FILE id="n48AFa" name="formula_token_operation_base.cpp" compile="1"
+                      resource="0" file="../rive-cpp/src/generated/data_bind/converters/formula/formula_token_operation_base.cpp"/>
+                <FILE id="na3Vzt" name="formula_token_parenthesis_base.cpp" compile="1"
+                      resource="0" file="../rive-cpp/src/generated/data_bind/converters/formula/formula_token_parenthesis_base.cpp"/>
+                <FILE id="znh79g" name="formula_token_parenthesis_close_base.cpp" compile="1"
+                      resource="0" file="../rive-cpp/src/generated/data_bind/converters/formula/formula_token_parenthesis_close_base.cpp"/>
+                <FILE id="AIuseT" name="formula_token_parenthesis_open_base.cpp" compile="1"
+                      resource="0" file="../rive-cpp/src/generated/data_bind/converters/formula/formula_token_parenthesis_open_base.cpp"/>
+                <FILE id="LslNaE" name="formula_token_value_base.cpp" compile="1" resource="0"
+                      file="../rive-cpp/src/generated/data_bind/converters/formula/formula_token_value_base.cpp"/>
+              </GROUP>
+              <FILE id="CfbfrG" name="data_converter_boolean_negate_base.cpp" compile="1"
+                    resource="0" file="../rive-cpp/src/generated/data_bind/converters/data_converter_boolean_negate_base.cpp"/>
+              <FILE id="hRPTBU" name="data_converter_formula_base.cpp" compile="1"
+                    resource="0" file="../rive-cpp/src/generated/data_bind/converters/data_converter_formula_base.cpp"/>
+              <FILE id="YuVJt7" name="data_converter_group_base.cpp" compile="1"
+                    resource="0" file="../rive-cpp/src/generated/data_bind/converters/data_converter_group_base.cpp"/>
+              <FILE id="JOG0Cm" name="data_converter_group_item_base.cpp" compile="1"
+                    resource="0" file="../rive-cpp/src/generated/data_bind/converters/data_converter_group_item_base.cpp"/>
+              <FILE id="QbIoVI" name="data_converter_interpolator_base.cpp" compile="1"
+                    resource="0" file="../rive-cpp/src/generated/data_bind/converters/data_converter_interpolator_base.cpp"/>
+              <FILE id="Kg91nC" name="data_converter_operation_base.cpp" compile="1"
+                    resource="0" file="../rive-cpp/src/generated/data_bind/converters/data_converter_operation_base.cpp"/>
+              <FILE id="Xy9hxM" name="data_converter_operation_value_base.cpp" compile="1"
+                    resource="0" file="../rive-cpp/src/generated/data_bind/converters/data_converter_operation_value_base.cpp"/>
+              <FILE id="qxGt5G" name="data_converter_operation_viewmodel_base.cpp"
+                    compile="1" resource="0" file="../rive-cpp/src/generated/data_bind/converters/data_converter_operation_viewmodel_base.cpp"/>
+              <FILE id="GWdimu" name="data_converter_range_mapper_base.cpp" compile="1"
+                    resource="0" file="../rive-cpp/src/generated/data_bind/converters/data_converter_range_mapper_base.cpp"/>
+              <FILE id="VfTC7N" name="data_converter_rounder_base.cpp" compile="1"
+                    resource="0" file="../rive-cpp/src/generated/data_bind/converters/data_converter_rounder_base.cpp"/>
+              <FILE id="adOOoG" name="data_converter_string_pad_base.cpp" compile="1"
+                    resource="0" file="../rive-cpp/src/generated/data_bind/converters/data_converter_string_pad_base.cpp"/>
+              <FILE id="ZOEica" name="data_converter_string_remove_zeros_base.cpp"
+                    compile="1" resource="0" file="../rive-cpp/src/generated/data_bind/converters/data_converter_string_remove_zeros_base.cpp"/>
+              <FILE id="qyghuq" name="data_converter_string_trim_base.cpp" compile="1"
+                    resource="0" file="../rive-cpp/src/generated/data_bind/converters/data_converter_string_trim_base.cpp"/>
+              <FILE id="zmh0pg" name="data_converter_system_degs_to_rads_base.cpp"
+                    compile="1" resource="0" file="../rive-cpp/src/generated/data_bind/converters/data_converter_system_degs_to_rads_base.cpp"/>
+              <FILE id="ZpyrrR" name="data_converter_system_normalizer_base.cpp"
+                    compile="1" resource="0" file="../rive-cpp/src/generated/data_bind/converters/data_converter_system_normalizer_base.cpp"/>
+              <FILE id="PpvB8b" name="data_converter_to_string_base.cpp" compile="1"
+                    resource="0" file="../rive-cpp/src/generated/data_bind/converters/data_converter_to_string_base.cpp"/>
+              <FILE id="Cyq5KT" name="data_converter_trigger_base.cpp" compile="1"
+                    resource="0" file="../rive-cpp/src/generated/data_bind/converters/data_converter_trigger_base.cpp"/>
+            </GROUP>
+            <FILE id="Ti4PEf" name="bindable_property_boolean_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/data_bind/bindable_property_boolean_base.cpp"/>
+            <FILE id="QsXNTh" name="bindable_property_color_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/data_bind/bindable_property_color_base.cpp"/>
+            <FILE id="E2KCg6" name="bindable_property_enum_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/data_bind/bindable_property_enum_base.cpp"/>
+            <FILE id="vsHHMb" name="bindable_property_number_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/data_bind/bindable_property_number_base.cpp"/>
+            <FILE id="iXQ6Br" name="bindable_property_string_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/data_bind/bindable_property_string_base.cpp"/>
+            <FILE id="UaTQDC" name="bindable_property_trigger_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/data_bind/bindable_property_trigger_base.cpp"/>
+            <FILE id="YL4Lba" name="data_bind_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/data_bind/data_bind_base.cpp"/>
+            <FILE id="v7dXmU" name="data_bind_context_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/data_bind/data_bind_context_base.cpp"/>
+          </GROUP>
+          <GROUP id="{9D6ACFCB-1483-0D5F-D3E5-A00FD537C09E}" name="layout">
+            <FILE id="BoytFl" name="axis_x_base.cpp" compile="1" resource="0" file="../rive-cpp/src/generated/layout/axis_x_base.cpp"/>
+            <FILE id="FPFylY" name="axis_y_base.cpp" compile="1" resource="0" file="../rive-cpp/src/generated/layout/axis_y_base.cpp"/>
+            <FILE id="Iyz7HB" name="layout_component_style_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/layout/layout_component_style_base.cpp"/>
+            <FILE id="QNy8dY" name="n_sliced_node_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/layout/n_sliced_node_base.cpp"/>
+            <FILE id="bOPBgu" name="n_slicer_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/layout/n_slicer_base.cpp"/>
+            <FILE id="tMacM2" name="n_slicer_tile_mode_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/layout/n_slicer_tile_mode_base.cpp"/>
+          </GROUP>
+          <GROUP id="{535BC8E5-73B9-CD28-A291-C3777332CE17}" name="shapes">
+            <GROUP id="{E550E49B-5220-4DB5-526C-89A485A4BA4B}" name="paint">
+              <FILE id="cNX77j" name="dash_base.cpp" compile="1" resource="0" file="../rive-cpp/src/generated/shapes/paint/dash_base.cpp"/>
+              <FILE id="N62fpt" name="dash_path_base.cpp" compile="1" resource="0"
+                    file="../rive-cpp/src/generated/shapes/paint/dash_path_base.cpp"/>
+              <FILE id="OrPBmT" name="feather_base.cpp" compile="1" resource="0"
+                    file="../rive-cpp/src/generated/shapes/paint/feather_base.cpp"/>
+              <FILE id="eajLMA" name="fill_base.cpp" compile="1" resource="0" file="../rive-cpp/src/generated/shapes/paint/fill_base.cpp"/>
+              <FILE id="iK3B6F" name="gradient_stop_base.cpp" compile="1" resource="0"
+                    file="../rive-cpp/src/generated/shapes/paint/gradient_stop_base.cpp"/>
+              <FILE id="Ydcx0y" name="linear_gradient_base.cpp" compile="1" resource="0"
+                    file="../rive-cpp/src/generated/shapes/paint/linear_gradient_base.cpp"/>
+              <FILE id="eKlbft" name="radial_gradient_base.cpp" compile="1" resource="0"
+                    file="../rive-cpp/src/generated/shapes/paint/radial_gradient_base.cpp"/>
+              <FILE id="lmfkpg" name="solid_color_base.cpp" compile="1" resource="0"
+                    file="../rive-cpp/src/generated/shapes/paint/solid_color_base.cpp"/>
+              <FILE id="oLJaV2" name="stroke_base.cpp" compile="1" resource="0" file="../rive-cpp/src/generated/shapes/paint/stroke_base.cpp"/>
+              <FILE id="GkWg18" name="trim_path_base.cpp" compile="1" resource="0"
+                    file="../rive-cpp/src/generated/shapes/paint/trim_path_base.cpp"/>
+            </GROUP>
+            <FILE id="VMfJIz" name="clipping_shape_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/shapes/clipping_shape_base.cpp"/>
+            <FILE id="yLZqki" name="contour_mesh_vertex_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/shapes/contour_mesh_vertex_base.cpp"/>
+            <FILE id="YkLa9B" name="cubic_asymmetric_vertex_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/shapes/cubic_asymmetric_vertex_base.cpp"/>
+            <FILE id="ctvCi7" name="cubic_detached_vertex_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/shapes/cubic_detached_vertex_base.cpp"/>
+            <FILE id="CyFBla" name="cubic_mirrored_vertex_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/shapes/cubic_mirrored_vertex_base.cpp"/>
+            <FILE id="Qxw5ND" name="ellipse_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/shapes/ellipse_base.cpp"/>
+            <FILE id="vRszJH" name="image_base.cpp" compile="1" resource="0" file="../rive-cpp/src/generated/shapes/image_base.cpp"/>
+            <FILE id="iqnzok" name="mesh_base.cpp" compile="1" resource="0" file="../rive-cpp/src/generated/shapes/mesh_base.cpp"/>
+            <FILE id="Hz0W8j" name="mesh_vertex_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/shapes/mesh_vertex_base.cpp"/>
+            <FILE id="D9AS5A" name="points_path_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/shapes/points_path_base.cpp"/>
+            <FILE id="NsciGO" name="polygon_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/shapes/polygon_base.cpp"/>
+            <FILE id="g28oMU" name="rectangle_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/shapes/rectangle_base.cpp"/>
+            <FILE id="hTUTZy" name="shape_base.cpp" compile="1" resource="0" file="../rive-cpp/src/generated/shapes/shape_base.cpp"/>
+            <FILE id="QzCbiI" name="star_base.cpp" compile="1" resource="0" file="../rive-cpp/src/generated/shapes/star_base.cpp"/>
+            <FILE id="JSQULy" name="straight_vertex_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/shapes/straight_vertex_base.cpp"/>
+            <FILE id="JkbRLs" name="triangle_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/shapes/triangle_base.cpp"/>
+          </GROUP>
+          <GROUP id="{ED951938-E6F0-57C3-94C0-B3E56613C303}" name="text">
+            <FILE id="Wb8MXy" name="text_base.cpp" compile="1" resource="0" file="../rive-cpp/src/generated/text/text_base.cpp"/>
+            <FILE id="miCxF9" name="text_follow_path_modifier_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/text/text_follow_path_modifier_base.cpp"/>
+            <FILE id="gbpEnt" name="text_modifier_group_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/text/text_modifier_group_base.cpp"/>
+            <FILE id="Rh97oy" name="text_modifier_range_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/text/text_modifier_range_base.cpp"/>
+            <FILE id="pIommx" name="text_style_axis_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/text/text_style_axis_base.cpp"/>
+            <FILE id="oNk2SW" name="text_style_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/text/text_style_base.cpp"/>
+            <FILE id="sgUIRz" name="text_style_feature_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/text/text_style_feature_base.cpp"/>
+            <FILE id="izbYBu" name="text_value_run_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/text/text_value_run_base.cpp"/>
+            <FILE id="Exl2VL" name="text_variation_modifier_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/text/text_variation_modifier_base.cpp"/>
+          </GROUP>
+          <GROUP id="{9AEC345D-B130-91D3-C32A-0895060B55A6}" name="viewmodel">
+            <FILE id="yBUD61" name="data_enum_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/viewmodel/data_enum_base.cpp"/>
+            <FILE id="W6kKj7" name="data_enum_custom_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/viewmodel/data_enum_custom_base.cpp"/>
+            <FILE id="O10Qm5" name="data_enum_system_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/viewmodel/data_enum_system_base.cpp"/>
+            <FILE id="CmzXoo" name="data_enum_value_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/viewmodel/data_enum_value_base.cpp"/>
+            <FILE id="AMOxhH" name="viewmodel_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/viewmodel/viewmodel_base.cpp"/>
+            <FILE id="MQM6Yr" name="viewmodel_component_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/viewmodel/viewmodel_component_base.cpp"/>
+            <FILE id="sGX0Bh" name="viewmodel_instance_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/viewmodel/viewmodel_instance_base.cpp"/>
+            <FILE id="N7HPn2" name="viewmodel_instance_boolean_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/viewmodel/viewmodel_instance_boolean_base.cpp"/>
+            <FILE id="TTiBD4" name="viewmodel_instance_color_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/viewmodel/viewmodel_instance_color_base.cpp"/>
+            <FILE id="xvOwSG" name="viewmodel_instance_enum_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/viewmodel/viewmodel_instance_enum_base.cpp"/>
+            <FILE id="K1PyO3" name="viewmodel_instance_list_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/viewmodel/viewmodel_instance_list_base.cpp"/>
+            <FILE id="EpDqAg" name="viewmodel_instance_list_item_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/viewmodel/viewmodel_instance_list_item_base.cpp"/>
+            <FILE id="K16jLN" name="viewmodel_instance_number_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/viewmodel/viewmodel_instance_number_base.cpp"/>
+            <FILE id="gOQf5P" name="viewmodel_instance_string_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/viewmodel/viewmodel_instance_string_base.cpp"/>
+            <FILE id="Og14mE" name="viewmodel_instance_trigger_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/viewmodel/viewmodel_instance_trigger_base.cpp"/>
+            <FILE id="TkG39u" name="viewmodel_instance_viewmodel_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/viewmodel/viewmodel_instance_viewmodel_base.cpp"/>
+            <FILE id="iabw2K" name="viewmodel_property_base.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/generated/viewmodel/viewmodel_property_base.cpp"/>
+            <FILE id="YTlMjU" name="viewmodel_property_boolean_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/viewmodel/viewmodel_property_boolean_base.cpp"/>
+            <FILE id="nar5k5" name="viewmodel_property_color_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/viewmodel/viewmodel_property_color_base.cpp"/>
+            <FILE id="qF79xX" name="viewmodel_property_enum_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/viewmodel/viewmodel_property_enum_base.cpp"/>
+            <FILE id="ZocVHb" name="viewmodel_property_enum_custom_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/viewmodel/viewmodel_property_enum_custom_base.cpp"/>
+            <FILE id="e3KL1r" name="viewmodel_property_enum_system_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/viewmodel/viewmodel_property_enum_system_base.cpp"/>
+            <FILE id="ORBtgk" name="viewmodel_property_list_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/viewmodel/viewmodel_property_list_base.cpp"/>
+            <FILE id="drEjME" name="viewmodel_property_number_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/viewmodel/viewmodel_property_number_base.cpp"/>
+            <FILE id="NdKfDE" name="viewmodel_property_string_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/viewmodel/viewmodel_property_string_base.cpp"/>
+            <FILE id="Wlsbzw" name="viewmodel_property_trigger_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/viewmodel/viewmodel_property_trigger_base.cpp"/>
+            <FILE id="MeUqSu" name="viewmodel_property_viewmodel_base.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/generated/viewmodel/viewmodel_property_viewmodel_base.cpp"/>
+          </GROUP>
+          <FILE id="dWZy1j" name="artboard_base.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/generated/artboard_base.cpp"/>
+          <FILE id="LEhF3T" name="audio_event_base.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/generated/audio_event_base.cpp"/>
+          <FILE id="HaVYk3" name="backboard_base.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/generated/backboard_base.cpp"/>
+          <FILE id="BO8doF" name="custom_property_boolean_base.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/generated/custom_property_boolean_base.cpp"/>
+          <FILE id="diCwjR" name="custom_property_group_base.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/generated/custom_property_group_base.cpp"/>
+          <FILE id="s7k2gO" name="custom_property_number_base.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/generated/custom_property_number_base.cpp"/>
+          <FILE id="yDK28U" name="custom_property_string_base.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/generated/custom_property_string_base.cpp"/>
+          <FILE id="Nbk2L7" name="draw_rules_base.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/generated/draw_rules_base.cpp"/>
+          <FILE id="Fe3axJ" name="draw_target_base.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/generated/draw_target_base.cpp"/>
+          <FILE id="t1XfeD" name="event_base.cpp" compile="1" resource="0" file="../rive-cpp/src/generated/event_base.cpp"/>
+          <FILE id="YFOAxy" name="foreground_layout_drawable_base.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/generated/foreground_layout_drawable_base.cpp"/>
+          <FILE id="ApG2o3" name="joystick_base.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/generated/joystick_base.cpp"/>
+          <FILE id="Ym8kIn" name="layout_component_base.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/generated/layout_component_base.cpp"/>
+          <FILE id="gTwF5c" name="nested_artboard_base.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/generated/nested_artboard_base.cpp"/>
+          <FILE id="tc49Os" name="nested_artboard_layout_base.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/generated/nested_artboard_layout_base.cpp"/>
+          <FILE id="Hmf9cR" name="nested_artboard_leaf_base.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/generated/nested_artboard_leaf_base.cpp"/>
+          <FILE id="EOs6T4" name="node_base.cpp" compile="1" resource="0" file="../rive-cpp/src/generated/node_base.cpp"/>
+          <FILE id="gqOxMn" name="open_url_event_base.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/generated/open_url_event_base.cpp"/>
+          <FILE id="jVacDH" name="solo_base.cpp" compile="1" resource="0" file="../rive-cpp/src/generated/solo_base.cpp"/>
+        </GROUP>
+        <GROUP id="{67B5DC71-BCDF-BFC4-BCEA-9F5B2AA363E2}" name="importers">
+          <FILE id="TKLMcN" name="artboard_importer.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/importers/artboard_importer.cpp"/>
+          <FILE id="SjhsGX" name="backboard_importer.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/importers/backboard_importer.cpp"/>
+          <FILE id="Dr7Ot1" name="bindable_property_importer.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/importers/bindable_property_importer.cpp"/>
+          <FILE id="N2ja4G" name="data_converter_formula_importer.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/importers/data_converter_formula_importer.cpp"/>
+          <FILE id="WFLn9U" name="data_converter_group_importer.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/importers/data_converter_group_importer.cpp"/>
+          <FILE id="yWcDk5" name="enum_importer.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/importers/enum_importer.cpp"/>
+          <FILE id="KeFJj6" name="file_asset_importer.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/importers/file_asset_importer.cpp"/>
+          <FILE id="UHWbOX" name="keyed_object_importer.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/importers/keyed_object_importer.cpp"/>
+          <FILE id="YsQV8x" name="keyed_property_importer.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/importers/keyed_property_importer.cpp"/>
+          <FILE id="bf8mNI" name="layer_state_importer.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/importers/layer_state_importer.cpp"/>
+          <FILE id="LOq9Lc" name="linear_animation_importer.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/importers/linear_animation_importer.cpp"/>
+          <FILE id="OdgcQQ" name="state_machine_importer.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/importers/state_machine_importer.cpp"/>
+          <FILE id="YvivZf" name="state_machine_layer_component_importer.cpp"
+                compile="1" resource="0" file="../rive-cpp/src/importers/state_machine_layer_component_importer.cpp"/>
+          <FILE id="ZnzJrW" name="state_machine_layer_importer.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/importers/state_machine_layer_importer.cpp"/>
+          <FILE id="VwI9u4" name="state_machine_listener_importer.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/importers/state_machine_listener_importer.cpp"/>
+          <FILE id="j4ZaUu" name="state_transition_importer.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/importers/state_transition_importer.cpp"/>
+          <FILE id="A3tyiA" name="transition_viewmodel_condition_importer.cpp"
+                compile="1" resource="0" file="../rive-cpp/src/importers/transition_viewmodel_condition_importer.cpp"/>
+          <FILE id="mgCHCV" name="viewmodel_importer.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/importers/viewmodel_importer.cpp"/>
+          <FILE id="IxvlM8" name="viewmodel_instance_importer.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/importers/viewmodel_instance_importer.cpp"/>
+          <FILE id="VkoTm8" name="viewmodel_instance_list_importer.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/importers/viewmodel_instance_list_importer.cpp"/>
+        </GROUP>
+        <GROUP id="{A9137320-663E-397B-8BA0-1845856E9A8F}" name="layout">
+          <FILE id="xc7mpg" name="axis.cpp" compile="1" resource="0" file="../rive-cpp/src/layout/axis.cpp"/>
+          <FILE id="EOcEq2" name="axis_x.cpp" compile="1" resource="0" file="../rive-cpp/src/layout/axis_x.cpp"/>
+          <FILE id="omkD5c" name="axis_y.cpp" compile="1" resource="0" file="../rive-cpp/src/layout/axis_y.cpp"/>
+          <FILE id="omb8EJ" name="layout_component_style.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/layout/layout_component_style.cpp"/>
+          <FILE id="Q8N7Od" name="layout_node_provider.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/layout/layout_node_provider.cpp"/>
+          <FILE id="FuyLnj" name="n_sliced_node.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/layout/n_sliced_node.cpp"/>
+          <FILE id="Htyj95" name="n_slicer.cpp" compile="1" resource="0" file="../rive-cpp/src/layout/n_slicer.cpp"/>
+          <FILE id="BGlq4T" name="n_slicer_details.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/layout/n_slicer_details.cpp"/>
+          <FILE id="IAdCok" name="n_slicer_tile_mode.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/layout/n_slicer_tile_mode.cpp"/>
+        </GROUP>
+        <GROUP id="{56A7C681-4B02-DA8C-74BA-ABE88B4BD621}" name="math">
+          <FILE id="Uqewro" name="aabb.cpp" compile="1" resource="0" file="../rive-cpp/src/math/aabb.cpp"/>
+          <FILE id="qXmC7p" name="bezier_utils.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/math/bezier_utils.cpp"/>
+          <FILE id="qjiaog" name="bit_field_loc.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/math/bit_field_loc.cpp"/>
+          <FILE id="FiRQ6a" name="contour_measure.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/math/contour_measure.cpp"/>
+          <FILE id="JzI6XZ" name="hit_test.cpp" compile="1" resource="0" file="../rive-cpp/src/math/hit_test.cpp"/>
+          <FILE id="n29mx8" name="mat2d.cpp" compile="1" resource="0" file="../rive-cpp/src/math/mat2d.cpp"/>
+          <FILE id="dZOGBP" name="mat2d_find_max_scale.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/math/mat2d_find_max_scale.cpp"/>
+          <FILE id="e1wORI" name="n_slicer_helpers.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/math/n_slicer_helpers.cpp"/>
+          <FILE id="LRMeN6" name="path_measure.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/math/path_measure.cpp"/>
+          <FILE id="bzPDTM" name="raw_path.cpp" compile="1" resource="0" file="../rive-cpp/src/math/raw_path.cpp"/>
+          <FILE id="djB2SM" name="raw_path_utils.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/math/raw_path_utils.cpp"/>
+          <FILE id="lADpxF" name="rectangles_to_contour.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/math/rectangles_to_contour.cpp"/>
+          <FILE id="DUX4xp" name="vec2d.cpp" compile="1" resource="0" file="../rive-cpp/src/math/vec2d.cpp"/>
+        </GROUP>
+        <GROUP id="{BCEA2435-46B7-65A2-2AF8-B08A17466A0B}" name="shapes">
+          <GROUP id="{70EDA24D-87C9-F7F2-2C60-51DC25CD4B99}" name="paint">
+            <FILE id="TeCWl9" name="color.cpp" compile="1" resource="0" file="../rive-cpp/src/shapes/paint/color.cpp"/>
+            <FILE id="v9qDt0" name="dash.cpp" compile="1" resource="0" file="../rive-cpp/src/shapes/paint/dash.cpp"/>
+            <FILE id="RRnGcL" name="dash_path.cpp" compile="1" resource="0" file="../rive-cpp/src/shapes/paint/dash_path.cpp"/>
+            <FILE id="sGLJr8" name="feather.cpp" compile="1" resource="0" file="../rive-cpp/src/shapes/paint/feather.cpp"/>
+            <FILE id="dPPJDc" name="fill.cpp" compile="1" resource="0" file="../rive-cpp/src/shapes/paint/fill.cpp"/>
+            <FILE id="PWL9rT" name="gradient_stop.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/shapes/paint/gradient_stop.cpp"/>
+            <FILE id="M6RQRz" name="linear_gradient.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/shapes/paint/linear_gradient.cpp"/>
+            <FILE id="swY9JX" name="radial_gradient.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/shapes/paint/radial_gradient.cpp"/>
+            <FILE id="BjCCdd" name="shape_paint.cpp" compile="1" resource="0" file="../rive-cpp/src/shapes/paint/shape_paint.cpp"/>
+            <FILE id="nPytUz" name="shape_paint_mutator.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/shapes/paint/shape_paint_mutator.cpp"/>
+            <FILE id="f8dpMe" name="shape_paint_path.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/shapes/paint/shape_paint_path.cpp"/>
+            <FILE id="w2gyza" name="solid_color.cpp" compile="1" resource="0" file="../rive-cpp/src/shapes/paint/solid_color.cpp"/>
+            <FILE id="rj0fAN" name="stroke.cpp" compile="1" resource="0" file="../rive-cpp/src/shapes/paint/stroke.cpp"/>
+            <FILE id="xDfUOv" name="trim_path.cpp" compile="1" resource="0" file="../rive-cpp/src/shapes/paint/trim_path.cpp"/>
+          </GROUP>
+          <FILE id="bwE6XN" name="clipping_shape.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/shapes/clipping_shape.cpp"/>
+          <FILE id="gRotBj" name="cubic_asymmetric_vertex.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/shapes/cubic_asymmetric_vertex.cpp"/>
+          <FILE id="cwDfVs" name="cubic_detached_vertex.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/shapes/cubic_detached_vertex.cpp"/>
+          <FILE id="TiQ9ZI" name="cubic_mirrored_vertex.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/shapes/cubic_mirrored_vertex.cpp"/>
+          <FILE id="kLRwBP" name="cubic_vertex.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/shapes/cubic_vertex.cpp"/>
+          <FILE id="GV1AsB" name="deformer.cpp" compile="1" resource="0" file="../rive-cpp/src/shapes/deformer.cpp"/>
+          <FILE id="qPe7FM" name="ellipse.cpp" compile="1" resource="0" file="../rive-cpp/src/shapes/ellipse.cpp"/>
+          <FILE id="UryPkO" name="image.cpp" compile="1" resource="0" file="../rive-cpp/src/shapes/image.cpp"/>
+          <FILE id="km6734" name="mesh.cpp" compile="1" resource="0" file="../rive-cpp/src/shapes/mesh.cpp"/>
+          <FILE id="hgRkJ5" name="mesh_vertex.cpp" compile="1" resource="0" file="../rive-cpp/src/shapes/mesh_vertex.cpp"/>
+          <FILE id="EZrUB4" name="parametric_path.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/shapes/parametric_path.cpp"/>
+          <FILE id="WHCoYn" name="path.cpp" compile="1" resource="0" file="../rive-cpp/src/shapes/path.cpp"/>
+          <FILE id="wn8RRJ" name="path_composer.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/shapes/path_composer.cpp"/>
+          <FILE id="vr4beL" name="path_vertex.cpp" compile="1" resource="0" file="../rive-cpp/src/shapes/path_vertex.cpp"/>
+          <FILE id="kEeMZm" name="points_path.cpp" compile="1" resource="0" file="../rive-cpp/src/shapes/points_path.cpp"/>
+          <FILE id="dzxBOc" name="polygon.cpp" compile="1" resource="0" file="../rive-cpp/src/shapes/polygon.cpp"/>
+          <FILE id="K6c27m" name="rectangle.cpp" compile="1" resource="0" file="../rive-cpp/src/shapes/rectangle.cpp"/>
+          <FILE id="QTuuFE" name="shape.cpp" compile="1" resource="0" file="../rive-cpp/src/shapes/shape.cpp"/>
+          <FILE id="VdKitu" name="shape_paint_container.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/shapes/shape_paint_container.cpp"/>
+          <FILE id="kJnsWB" name="slice_mesh.cpp" compile="1" resource="0" file="../rive-cpp/src/shapes/slice_mesh.cpp"/>
+          <FILE id="zO6yFT" name="star.cpp" compile="1" resource="0" file="../rive-cpp/src/shapes/star.cpp"/>
+          <FILE id="j7CCCm" name="straight_vertex.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/shapes/straight_vertex.cpp"/>
+          <FILE id="P8tNV6" name="triangle.cpp" compile="1" resource="0" file="../rive-cpp/src/shapes/triangle.cpp"/>
+          <FILE id="ZgjMC0" name="vertex.cpp" compile="1" resource="0" file="../rive-cpp/src/shapes/vertex.cpp"/>
+        </GROUP>
+        <GROUP id="{149AE59B-60B3-4B77-102C-D436A5CB883C}" name="text">
+          <FILE id="VxmX5R" name="font_hb.cpp" compile="1" resource="0" file="../rive-cpp/src/text/font_hb.cpp"/>
+          <FILE id="j9EywF" name="font_hb_apple.mm" compile="1" resource="0"
+                file="../rive-cpp/src/text/font_hb_apple.mm"/>
+          <FILE id="JCEwKc" name="glyph_lookup.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/text/glyph_lookup.cpp"/>
+          <FILE id="ByTEG3" name="line_breaker.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/text/line_breaker.cpp"/>
+          <FILE id="LUEvDg" name="raw_text.cpp" compile="1" resource="0" file="../rive-cpp/src/text/raw_text.cpp"/>
+          <FILE id="sbfuYR" name="text.cpp" compile="1" resource="0" file="../rive-cpp/src/text/text.cpp"/>
+          <FILE id="xSPDRy" name="text_follow_path_modifier.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/text/text_follow_path_modifier.cpp"/>
+          <FILE id="kryBXh" name="text_modifier.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/text/text_modifier.cpp"/>
+          <FILE id="TAX4iM" name="text_modifier_group.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/text/text_modifier_group.cpp"/>
+          <FILE id="EEku48" name="text_modifier_range.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/text/text_modifier_range.cpp"/>
+          <FILE id="qRLaOS" name="text_style.cpp" compile="1" resource="0" file="../rive-cpp/src/text/text_style.cpp"/>
+          <FILE id="g50IWG" name="text_style_axis.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/text/text_style_axis.cpp"/>
+          <FILE id="q2B2Ur" name="text_style_feature.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/text/text_style_feature.cpp"/>
+          <FILE id="nbbhrv" name="text_target_modifier.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/text/text_target_modifier.cpp"/>
+          <FILE id="CTyw8l" name="text_value_run.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/text/text_value_run.cpp"/>
+          <FILE id="tWl78b" name="text_variation_modifier.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/text/text_variation_modifier.cpp"/>
+          <FILE id="OxsOUQ" name="utf.cpp" compile="1" resource="0" file="../rive-cpp/src/text/utf.cpp"/>
+        </GROUP>
+        <GROUP id="{1CAF9F67-4683-2CD6-57D4-7D40BED4B915}" name="viewmodel">
+          <GROUP id="{AD8AB509-D047-5325-B236-8355C063D5CB}" name="runtime">
+            <FILE id="uUrC1l" name="viewmodel_instance_boolean_runtime.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/viewmodel/runtime/viewmodel_instance_boolean_runtime.cpp"/>
+            <FILE id="DIk71E" name="viewmodel_instance_color_runtime.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/viewmodel/runtime/viewmodel_instance_color_runtime.cpp"/>
+            <FILE id="dafsQp" name="viewmodel_instance_enum_runtime.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/viewmodel/runtime/viewmodel_instance_enum_runtime.cpp"/>
+            <FILE id="HJynIA" name="viewmodel_instance_number_runtime.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/viewmodel/runtime/viewmodel_instance_number_runtime.cpp"/>
+            <FILE id="HBUxLg" name="viewmodel_instance_runtime.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/viewmodel/runtime/viewmodel_instance_runtime.cpp"/>
+            <FILE id="TIC2W1" name="viewmodel_instance_string_runtime.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/viewmodel/runtime/viewmodel_instance_string_runtime.cpp"/>
+            <FILE id="U0W8tR" name="viewmodel_instance_trigger_runtime.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/viewmodel/runtime/viewmodel_instance_trigger_runtime.cpp"/>
+            <FILE id="ZzgxMb" name="viewmodel_instance_value_runtime.cpp" compile="1"
+                  resource="0" file="../rive-cpp/src/viewmodel/runtime/viewmodel_instance_value_runtime.cpp"/>
+            <FILE id="s4G1yP" name="viewmodel_runtime.cpp" compile="1" resource="0"
+                  file="../rive-cpp/src/viewmodel/runtime/viewmodel_runtime.cpp"/>
+          </GROUP>
+          <FILE id="vJpMR3" name="data_enum.cpp" compile="1" resource="0" file="../rive-cpp/src/viewmodel/data_enum.cpp"/>
+          <FILE id="ABcidC" name="data_enum_value.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/viewmodel/data_enum_value.cpp"/>
+          <FILE id="oH25bW" name="viewmodel.cpp" compile="1" resource="0" file="../rive-cpp/src/viewmodel/viewmodel.cpp"/>
+          <FILE id="ow9Elf" name="viewmodel_instance.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/viewmodel/viewmodel_instance.cpp"/>
+          <FILE id="mLWgBh" name="viewmodel_instance_boolean.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/viewmodel/viewmodel_instance_boolean.cpp"/>
+          <FILE id="Nlmqre" name="viewmodel_instance_color.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/viewmodel/viewmodel_instance_color.cpp"/>
+          <FILE id="Y4mhyZ" name="viewmodel_instance_enum.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/viewmodel/viewmodel_instance_enum.cpp"/>
+          <FILE id="a0br4K" name="viewmodel_instance_list.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/viewmodel/viewmodel_instance_list.cpp"/>
+          <FILE id="ffqk5N" name="viewmodel_instance_list_item.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/viewmodel/viewmodel_instance_list_item.cpp"/>
+          <FILE id="ZHDFQX" name="viewmodel_instance_number.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/viewmodel/viewmodel_instance_number.cpp"/>
+          <FILE id="Wd3HyN" name="viewmodel_instance_string.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/viewmodel/viewmodel_instance_string.cpp"/>
+          <FILE id="c9XvNJ" name="viewmodel_instance_trigger.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/viewmodel/viewmodel_instance_trigger.cpp"/>
+          <FILE id="tlST16" name="viewmodel_instance_value.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/viewmodel/viewmodel_instance_value.cpp"/>
+          <FILE id="MiNyHL" name="viewmodel_instance_viewmodel.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/viewmodel/viewmodel_instance_viewmodel.cpp"/>
+          <FILE id="I0YlnT" name="viewmodel_property.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/viewmodel/viewmodel_property.cpp"/>
+          <FILE id="W5uFM6" name="viewmodel_property_enum.cpp" compile="1" resource="0"
+                file="../rive-cpp/src/viewmodel/viewmodel_property_enum.cpp"/>
+          <FILE id="tHwhbz" name="viewmodel_property_enum_system.cpp" compile="1"
+                resource="0" file="../rive-cpp/src/viewmodel/viewmodel_property_enum_system.cpp"/>
+        </GROUP>
+        <FILE id="sjwshY" name="advancing_component.cpp" compile="1" resource="0"
+              file="../rive-cpp/src/advancing_component.cpp"/>
+        <FILE id="NyuXK2" name="artboard.cpp" compile="1" resource="0" file="../rive-cpp/src/artboard.cpp"/>
+        <FILE id="rkp4Xu" name="audio_event.cpp" compile="1" resource="0" file="../rive-cpp/src/audio_event.cpp"/>
+        <FILE id="flJlyx" name="component.cpp" compile="1" resource="0" file="../rive-cpp/src/component.cpp"/>
+        <FILE id="abVmpJ" name="container_component.cpp" compile="1" resource="0"
+              file="../rive-cpp/src/container_component.cpp"/>
+        <FILE id="pm879g" name="dependency_sorter.cpp" compile="1" resource="0"
+              file="../rive-cpp/src/dependency_sorter.cpp"/>
+        <FILE id="eQhKaP" name="draw_rules.cpp" compile="1" resource="0" file="../rive-cpp/src/draw_rules.cpp"/>
+        <FILE id="OCFSTi" name="draw_target.cpp" compile="1" resource="0" file="../rive-cpp/src/draw_target.cpp"/>
+        <FILE id="Ki5Esb" name="drawable.cpp" compile="1" resource="0" file="../rive-cpp/src/drawable.cpp"/>
+        <FILE id="IIK1Z1" name="event.cpp" compile="1" resource="0" file="../rive-cpp/src/event.cpp"/>
+        <FILE id="eA2EB6" name="factory.cpp" compile="1" resource="0" file="../rive-cpp/src/factory.cpp"/>
+        <FILE id="yMCdcK" name="file.cpp" compile="1" resource="0" file="../rive-cpp/src/file.cpp"/>
+        <FILE id="Pk7b6E" name="foreground_layout_drawable.cpp" compile="1"
+              resource="0" file="../rive-cpp/src/foreground_layout_drawable.cpp"/>
+        <FILE id="Ji95Xn" name="hittest_command_path.cpp" compile="1" resource="0"
+              file="../rive-cpp/src/hittest_command_path.cpp"/>
+        <FILE id="sgcWhL" name="intrinsically_sizeable.cpp" compile="1" resource="0"
+              file="../rive-cpp/src/intrinsically_sizeable.cpp"/>
+        <FILE id="tCFUyl" name="joystick.cpp" compile="1" resource="0" file="../rive-cpp/src/joystick.cpp"/>
+        <FILE id="WIEGXv" name="layout.cpp" compile="1" resource="0" file="../rive-cpp/src/layout.cpp"/>
+        <FILE id="SntrNd" name="layout_component.cpp" compile="1" resource="0"
+              file="../rive-cpp/src/layout_component.cpp"/>
+        <FILE id="OQHWoE" name="nested_artboard.cpp" compile="1" resource="0"
+              file="../rive-cpp/src/nested_artboard.cpp"/>
+        <FILE id="e5BW5s" name="nested_artboard_layout.cpp" compile="1" resource="0"
+              file="../rive-cpp/src/nested_artboard_layout.cpp"/>
+        <FILE id="ZqXFjS" name="nested_artboard_leaf.cpp" compile="1" resource="0"
+              file="../rive-cpp/src/nested_artboard_leaf.cpp"/>
+        <FILE id="KtBtT1" name="node.cpp" compile="1" resource="0" file="../rive-cpp/src/node.cpp"/>
+        <FILE id="HNSf6x" name="renderer.cpp" compile="1" resource="0" file="../rive-cpp/src/renderer.cpp"/>
+        <FILE id="mCWe1M" name="scene.cpp" compile="1" resource="0" file="../rive-cpp/src/scene.cpp"/>
+        <FILE id="GjEcDm" name="simple_array.cpp" compile="1" resource="0"
+              file="../rive-cpp/src/simple_array.cpp"/>
+        <FILE id="rVBFOI" name="solo.cpp" compile="1" resource="0" file="../rive-cpp/src/solo.cpp"/>
+        <FILE id="P2tcCG" name="static_scene.cpp" compile="1" resource="0"
+              file="../rive-cpp/src/static_scene.cpp"/>
+        <FILE id="uw8KtG" name="transform_component.cpp" compile="1" resource="0"
+              file="../rive-cpp/src/transform_component.cpp"/>
+        <FILE id="mZ9L7f" name="world_transform_component.cpp" compile="1"
+              resource="0" file="../rive-cpp/src/world_transform_component.cpp"/>
+      </GROUP>
+    </GROUP>
+    <GROUP id="{5846201E-7092-C95C-192D-D5BE4E439397}" name="Stub">
+      <GROUP id="{955B307E-AAE6-5517-A4FA-4E6886FCB4A8}" name="StubHeaders">
+        <GROUP id="{DCEAE61D-2194-26E8-1F60-4F8C4513DD6E}" name="rive">
+          <GROUP id="{88157825-E537-1C27-9ACC-7C46F406D2F7}" name="math">
+            <FILE id="dLGBaO" name="mat2d.hpp" compile="0" resource="0" file="StubHeaders/rive/math/mat2d.hpp"/>
+          </GROUP>
+          <GROUP id="{9DD21806-C624-FA87-6216-90BFB1BD8055}" name="shapes">
+            <GROUP id="{CFE5C59D-462B-28C7-113A-D46DDF0026EA}" name="paint">
+              <FILE id="CPqXna" name="blend_mode.hpp" compile="0" resource="0" file="StubHeaders/rive/shapes/paint/blend_mode.hpp"/>
+              <FILE id="WKLWL3" name="color.hpp" compile="0" resource="0" file="StubHeaders/rive/shapes/paint/color.hpp"/>
+              <FILE id="qEl5dN" name="stroke_cap.hpp" compile="0" resource="0" file="StubHeaders/rive/shapes/paint/stroke_cap.hpp"/>
+              <FILE id="aaYf3U" name="stroke_join.hpp" compile="0" resource="0" file="StubHeaders/rive/shapes/paint/stroke_join.hpp"/>
+            </GROUP>
+          </GROUP>
+          <FILE id="QTS6aK" name="refcnt.hpp" compile="0" resource="0" file="StubHeaders/rive/refcnt.hpp"/>
+          <FILE id="UvAv9v" name="render_buffer.hpp" compile="0" resource="0"
+                file="StubHeaders/rive/render_buffer.hpp"/>
+          <FILE id="PmUuUT" name="render_image.hpp" compile="0" resource="0"
+                file="StubHeaders/rive/render_image.hpp"/>
+          <FILE id="jtvghO" name="render_paint.hpp" compile="0" resource="0"
+                file="StubHeaders/rive/render_paint.hpp"/>
+          <FILE id="RbG4zH" name="render_path.hpp" compile="0" resource="0" file="StubHeaders/rive/render_path.hpp"/>
+          <FILE id="De4rKN" name="renderer.hpp" compile="0" resource="0" file="StubHeaders/rive/renderer.hpp"/>
+          <FILE id="VkrzEM" name="renderer_paint_style.hpp" compile="0" resource="0"
+                file="StubHeaders/rive/renderer_paint_style.hpp"/>
+        </GROUP>
+      </GROUP>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022" toolset="ClangCL">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="DemoTape" headerPath="../../../rive-cpp/include&#10;../../Source&#10;E:\__Design\__\__VST\__Rive Tests\DemoTape\rive-cpp\include"
+                       userNotes="Includes Rive runtime headers"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="DemoTape" headerPath="../../../rive-cpp/include&#10;../../Source&#10;E:\__Design\__\__VST\__Rive Tests\DemoTape\rive-cpp\include"
+                       userNotes="Includes Rive runtime headers"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+    <CLION_WINDOWS targetFolder="Builds/ClangWindows" clangExe="clang++">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="DemoTape" headerPath="../../../rive-cpp/include"
+                       optimisation="1" cppLanguageStandard="17" cppLibType="libc++"
+                       warningsAreErrors="0" enablePluginBinaryCopyStep="1" userNotes="Clang build with vector builtins"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="DemoTape" headerPath="../../../rive-cpp/include"
+                       optimisation="3" cppLanguageStandard="17" cppLibType="libc++"
+                       warningsAreErrors="0" enablePluginBinaryCopyStep="1" userNotes="Clang build with vector builtins"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </CLION_WINDOWS>
+  </EXPORTFORMATS>
+</JUCERPROJECT>

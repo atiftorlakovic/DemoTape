@@ -1,0 +1,48 @@
+    # CMake generated files
+    CMakeCache.txt
+    CMakeFiles/
+    cmake_install.cmake
+    compile_commands.json
+    *.vcxproj
+    *.vcxproj.filters
+    *.vcxproj.user
+    *.sln
+    *.suo
+
+    # Build directories (adjust pattern if needed)
+    build-*/
+    build/
+    Build/
+    build-clang/ # Your specific build dir name
+    out/
+    Debug/
+    Release/
+    DemoTape_artefacts/
+
+    # Compiled binaries and libraries
+    *.lib
+    *.dll
+    *.exe
+    *.pdb
+    *.ilk
+    *.exp
+    *.vst3
+    *.a
+    *.o
+    *.obj
+
+    # Visual Studio specific
+    .vs/
+    */.vs/
+
+    # macOS specific (optional)
+    .DS_Store
+
+    # JUCE generated temp files (if any)
+    # Add specific JUCE temp patterns if you notice any
+
+    # IMPORTANT: Do NOT commit the Rive runtime or JUCE library itself
+    # if they live outside this directory. If they are *inside*
+    # this DemoTape directory and you don't want to commit them, add:
+    # /rive-runtime-main/
+    # /JUCE/
